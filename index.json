@@ -1,0 +1,18 @@
+[
+  {
+    "name": "worker demo 0",
+    "description": "worker demo 0",
+    "author": "jskit",
+    "project_id": "worker-demo0",
+    "config_file": "./.jk.json",
+    "root_dir": "./api-demos/worker-demo0"
+  },
+  {
+    "name": "ui demo 0",
+    "description": "ui demo 0",
+    "author": "jskit",
+    "project_id": "ui-demo0",
+    "config_file": "./.jk.json",
+    "root_dir": "./api-demos/ui-demo0"
+  }
+]
