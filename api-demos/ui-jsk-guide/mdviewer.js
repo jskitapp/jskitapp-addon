@@ -42,7 +42,7 @@ class MdViewer {
                 pid: this.#rootId,
                 id: this.#mdViewId,
                 style: {
-                    //flexShrink: 1,
+                    flexShrink: 1,
                     alignItems: "center",
                     borderColor: "blue",
                     flexDirection: "column",
