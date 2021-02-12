@@ -1,6 +1,6 @@
 import * as ui from "ui";
 
-import homeId from './home';
+import homeId from './src/home';
 
 //ui.showConsole();
 console.log("hello world");

@@ -1,5 +1,13 @@
 [
   {
+    "name": "JSKit APP Guide",
+    "description": "JSKit APP 使用指南",
+    "author": "jskit",
+    "project_id": "ui-jsk-guide",
+    "config_file": "./.jk.json",
+    "root_dir": "./api-demos/ui-jsk-guide"
+  },
+  {
     "name": "worker demo 0",
     "description": "worker demo 0",
     "author": "jskit",

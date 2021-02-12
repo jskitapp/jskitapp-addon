@@ -1,0 +1,14 @@
+{
+  "title": "JSKit APP Guide",
+  "description": "demo app for how to use jskit",
+  "main": "$ui_demo1",
+  "js_map": {
+    "$ui_demo1": "./main.js"
+  },
+  "depes": [
+    "$ui",
+    "$worker",
+    "$file",
+    "$timer"
+  ]
+}

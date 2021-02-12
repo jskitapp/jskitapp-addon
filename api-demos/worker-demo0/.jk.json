@@ -6,7 +6,6 @@
     "$_worker_demo0": "./main.js"
   },
   "depes": [
-    "$worker",
-    "$timer"
+    "$worker"
   ]
 }

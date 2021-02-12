@@ -1,9 +1,9 @@
 {
   "title": "ui-demo0",
   "description": "ui demo 0",
-  "main": "$_ui_demo0",
+  "main": "$ui_demo0",
   "js_map": {
-    "$_ui_demo0": "./src/main.js"
+    "$ui_demo0": "./main.js"
   },
   "depes": [
     "$ui",
