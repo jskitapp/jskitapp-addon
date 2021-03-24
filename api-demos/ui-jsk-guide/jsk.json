@@ -1,6 +1,7 @@
 {
-  "title": "JSKit APP Guide",
+  "name": "JSKit APP Guide",
   "description": "demo app for how to use jskit",
+  "jsk_id":"ui-jsk-guide",
   "main": "$ui_demo1",
   "js_map": {
     "$ui_demo1": "./main.js"
@@ -10,5 +11,10 @@
     "$worker",
     "$file",
     "$timer"
-  ]
+  ],
+  "version_name": "0.9",
+  "version_code": 3,
+  "author": {
+    "name": "jskit"
+  }
 }

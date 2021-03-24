@@ -1,6 +1,7 @@
 {
-  "title": "ui-demo0",
+  "name": "ui-demo0",
   "description": "ui demo 0",
+  "jsk_id": "ui-demo0",
   "main": "$ui_demo0",
   "js_map": {
     "$ui_demo0": "./main.js"
@@ -8,5 +9,10 @@
   "depes": [
     "$ui",
     "$timer"
-  ]
+  ],
+  "version_name": "0.9",
+  "version_code": 2,
+  "author": {
+    "name": "jskit"
+  }
 }

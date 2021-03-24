@@ -1,11 +1,17 @@
 {
-  "title": "worker demo 0",
+  "name": "worker demo 0",
   "description": "worker demo 0",
   "main": "$_worker_demo0",
+  "jsk_id": "worker-demo0",
   "js_map": {
     "$_worker_demo0": "./main.js"
   },
   "depes": [
     "$worker"
-  ]
+  ],
+  "version_name": "0.9",
+  "version_code": 2,
+  "author": {
+    "name": "jskit"
+  }
 }
