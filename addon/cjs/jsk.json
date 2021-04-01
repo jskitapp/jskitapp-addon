@@ -1,0 +1,20 @@
+{
+  "main": "$cjs_demo",
+  "js_map": {
+    "$cjs_demo": "./main.js",
+    "cjs": "./node/module.js"
+  },
+  "depes": [
+    "$jsk",
+    "$file"
+  ],
+  "flags": 0,
+  "jsk_id": "cjs",
+  "jsk_code": 2,
+  "name": "cjs",
+  "description": "cjs support",
+  "version_code": 2,
+  "author": {
+    "name": "xyzxqs"
+  }
+}

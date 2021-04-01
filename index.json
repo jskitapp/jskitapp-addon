@@ -7,5 +7,8 @@
   },
   {
     "root_dir": "./api-demos/ui-demo0"
+  },
+  {
+    "root_dir": "./addon/cjs"
   }
 ]
