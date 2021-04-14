@@ -1,0 +1,20 @@
+{
+  "main": "$libaxios_main",
+  "js_map": {
+    "$libaxios_main": "./main.js",
+    "axios": "./axios.js"
+  },
+  "depes": [
+    "cjs",
+    "$http"
+  ],
+  "flags": 1,
+  "jsk_id": "axios",
+  "jsk_code": 2,
+  "name": "axios",
+  "description": "axios for jskit",
+  "version_code": 3,
+  "author": {
+    "name": "xyzxqs"
+  }
+}

@@ -10,5 +10,8 @@
   },
   {
     "root_dir": "./addon/cjs"
+  },
+  {
+    "root_dir": "./addon/axios"
   }
 ]
