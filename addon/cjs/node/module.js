@@ -145,6 +145,9 @@ class Module {
         if (nativeModuleCanBeRequiredByUsers(request)) {
             return request;
         }
+        if (typeof Deno.resolvePath !== 'undefined') {
+            request = Deno.resolvePath(parent.filename, request) || request;
+        }
         let paths;
         if (typeof options === "object" && options !== null) {
             if (Array.isArray(options.paths)) {
@@ -526,7 +529,7 @@ function readPackage(requestPath) {
     }
     let json;
     try {
-        json = new TextDecoder().decode(Deno.readFileSync(path.toNamespacedPath(jsonPath)));
+        json = Deno.readFileSync(path.toNamespacedPath(jsonPath));
     }
     catch (_a) {
         // pass
@@ -728,7 +731,7 @@ function resolveExports(nmPath, request, absoluteRequest) {
     }
     return path.resolve(nmPath, request);
 }
-function resolveExportsTarget(pkgPath, 
+function resolveExportsTarget(pkgPath,
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 target, subpath, basePath, mappingKey) {
     if (typeof target === "string") {

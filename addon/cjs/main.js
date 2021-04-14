@@ -1,5 +1,5 @@
 import * as jsk from 'jsk';
-import { File, FileReader } from 'file';
+import {File, FileReader, resolvePath} from 'file';
 
 class PermissionDenied extends Error {
     constructor(message) {
@@ -24,6 +24,7 @@ global.Deno = {
     errors: {
         PermissionDenied: PermissionDenied
     },
+    resolvePath: resolvePath,
     readFileSync(path) {
         const file = new File(path);
         let wreader = new FileReader(file);
