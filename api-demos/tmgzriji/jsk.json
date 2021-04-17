@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "xyzxqs"
+  },
+  "depes": [
+    "$worker",
+    "$timer",
+    "$ui",
+    "$file",
+    "$clipboard",
+    "$jsk",
+    "axios"
+  ],
+  "description": "请尊重一下舔狗，不要当舔狗～",
+  "flags": 0,
+  "js_map": {
+    "tgrj_main": "./main.js"
+  },
+  "jsk_code": 3,
+  "jsk_id": "tgrj",
+  "main": "tgrj_main",
+  "name": "舔狗日记",
+  "version_code": 0
+}

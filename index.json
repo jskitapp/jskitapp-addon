@@ -1,5 +1,14 @@
 [
   {
+    "root_dir": "./addon/cjs"
+  },
+  {
+    "root_dir": "./addon/axios"
+  },
+  {
+    "root_dir": "./api-demos/tmgzriji"
+  },
+  {
     "root_dir": "./api-demos/ui-jsk-guide"
   },
   {
@@ -7,11 +16,5 @@
   },
   {
     "root_dir": "./api-demos/ui-demo0"
-  },
-  {
-    "root_dir": "./addon/cjs"
-  },
-  {
-    "root_dir": "./addon/axios"
   }
 ]
