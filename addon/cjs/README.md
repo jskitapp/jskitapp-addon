@@ -15,4 +15,6 @@ const example = require("./exame.js");
 
 ```
 
-> 源码大部分参考自 Deno 的 node/module 模块，针对 JSKit 稍有调整，如有问题请联系我们。
+> 源码参考自 Deno 的 [node/module][1] 模块，针对 JSKit 稍有调整，如有问题请联系我们。
+
+[1]: https://github.com/denoland/deno/tree/v1.1/std/node
